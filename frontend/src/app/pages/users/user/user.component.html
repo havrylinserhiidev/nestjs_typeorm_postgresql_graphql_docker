@@ -1,0 +1,16 @@
+<div class="card p-2 card-width">
+  <img [src]="'imgSrc'" alt="upps" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">Name</h5>
+    <p class="card-text">Email</p>
+    <div class="row">
+      <div class="text-center">
+        <button class="btn/btn-outline-secondary"><app-icon icon="bi bi-pencil-square"></app-icon>Edit</button>
+        <button class="btn/btn-outline-danger"><app-icon icon="bi bi-trash"></app-icon>Delete</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <router-outlet></router-outlet>
+  </div>
+</div>
